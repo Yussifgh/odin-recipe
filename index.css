@@ -1,0 +1,87 @@
+body{color: oldlace; 
+    background-image: url('download (7).jpeg');
+  background-size: cover;
+  background-position: center;
+background-repeat: no-repeat;
+    opacity: 100%;
+     background-color: bisgue; font-size: medium;
+    }
+ h1,h2,h3{color:gold; background-color: green;
+    position: sticky;
+     font-size:x-large; font-style:Times-New-Roman;
+      text-align: center;
+    animation: toggle 5s linear;
+    }
+ #title{color:gold; background-color: #ff00ff; font-size:x-large; text-align: center; font-style: Aharoni; /* several unique declarations */}
+img{position: relative ;
+    height: 500px;
+width:300px;
+transform-style: preserve-3d;
+transform: perspective(1000px);
+animation: animate 30s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{ transform: perspective(1000px) rotateY(360deg);}
+}
+
+@keyframes toggle {
+    0%{transform: translateY(-250px); }
+    100%{transform: translateY(0px);}
+}
+
+.Steps, .Ingredients, .Tubani, .Menu, .Home {color: goldenrod; background-color: bisque; font-size: 40;font-weight: 700;font-style:normal;}
+       p{color: white; background-color: black; font-size: 24; font-family: Georgia, 'Times New Roman', Times, serif;}
+   strong,em{background-color: gold;
+    color: white;
+}
+
+nav{background-color: aquamarine;
+    height: 60px;
+    width: auto;
+position: relative;
+font-size: 18px;
+font-weight: 800px;
+
+}
+
+a{
+    position: relative;
+    float: inline-end;
+   text-decoration: none;
+    justify-content: center ;
+    margin: 0 20px;
+    top: 6px;
+}
+
+#waakye{background-color: black;}
+
+#footer{
+    background-color: rgb(99, 134, 4);
+    height: 50px;
+    border-radius: 10px;
+    opacity: 100% ;
+}
+
+#home{position: relative;
+    right: 650px;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: azure; 
+}
+
+.recipes{background-color: #fcd6fc;
+position: relative;
+height: 30px;
+width: auto;}
+
+a:hover{background-color: yellow;
+    transition: 3s linear;
+    transform: translateX(10px);
+}
+
+img:hover{animation: none;}
